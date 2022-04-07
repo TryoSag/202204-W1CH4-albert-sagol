@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --blue: #5e81d1;
+  --orange: #f87500;
+  --lightorange: #ff8d27;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+header {
+  border: 1 solid blue;
+}
+header > * {
+  border: 1 solid red;
+}
+section {
+  border: 1 solid green;
+}
+section > * {
+  border: 1 solid purple;
+}
