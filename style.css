@@ -12,16 +12,20 @@ body {
 }
 .container {
   display: flex;
+  flex-direction: column;
 }
 header {
-  border: 1 solid blue;
+  display: flex;
+  flex-direction: row;
 }
-header > * {
-  border: 1 solid red;
+header > p {
+  flex: 2;
 }
-section {
-  border: 1 solid green;
+.list--links {
+  list-style: none;
+  display: flex;
+  flex: 1;
 }
-section > * {
-  border: 1 solid purple;
+.button--minus {
+  size: 5px;
 }
