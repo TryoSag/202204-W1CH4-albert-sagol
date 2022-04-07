@@ -10,17 +10,19 @@
   <body>
     <div class="container">
       <header>
-        <h2>Lista de la compra</h2>
-        <ul>
+        <p>Lista de la compra</p>
+        <ul class="list--links">
           <li class="link--to-index">
             <link rel="Principal" href="index.html" />
           </li>
-          <li class="link--to-list"><link rel="Lista" href="List.html" /></li>
+          <li class="link--to-list">
+            <link rel="Lista" href="List.html" />
+          </li>
           <li>Acerca de</li>
         </ul>
       </header>
       <section>
-        <button>
+        <button class="button--minus">
           <i>
             <img
               src="/icons/minus_icon.png"
@@ -31,19 +33,19 @@
         <h3>2/3 comprados</h3>
       </section>
       <main>
-        <h3></h3>
-        <article>
+        <h3>Editar articulo</h3>
+        <form class="block--name">
           <label for="">Nombre:</label>
           <input type="" />
-        </article>
-        <article>
+        </form>
+        <form class="block--price">
           <label for="">Precio:</label>
           <div class="block--input-price">
             <input type="" />
             <p>€</p>
           </div>
-        </article>
-        <button>Modificar</button>
+        </form>
+        <button class="button--modifier">Modificar</button>
       </main>
     </div>
   </body>
