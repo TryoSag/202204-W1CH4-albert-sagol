@@ -55,6 +55,7 @@ section > p {
   text-align: end;
   padding: 20px;
 }
+.button--plus,
 .button--minus {
   margin: 20px;
 }
@@ -134,4 +135,35 @@ section > button {
   border: 0;
   flex: 1;
   background-color: var(--lightorange);
+}
+.block--main-index > p {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+label {
+  font-size: 16px;
+}
+input {
+  height: 45px;
+  width: 180px;
+}
+.block--input-price {
+  display: flex;
+  flex-direction: row;
+}
+.button--modifier {
+  margin-left: 20px;
+  height: 45px;
+  width: 80px;
+  color: #fff;
+  background-color: #5e81d1;
+  border: none;
 }
