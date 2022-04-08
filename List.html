@@ -10,53 +10,70 @@
   <body>
     <div class="container">
       <header>
-        <h2>Lista de la compra</h2>
-        <ul>
+        <p>Lista de la compra</p>
+        <ul class="list--links">
           <li class="link--to-index">
-            <link rel="Principal" href="index.html" />
+            <a href="index.html">Principal</a>
           </li>
-          <li class="link--to-list"><link rel="Lista" href="List.html" /></li>
+          <li class="link--to-list">
+            <a href="List.html">Lista</a>
+          </li>
           <li>Acerca de</li>
         </ul>
       </header>
       <section>
-        <button>
-          <i>
-            <img
-              src="/icons/minus_icon.png"
-              alt="Circulo con un simbolo de resta"
-            />
-          </i>
+        <button class="button--minus">
+          <img
+            src="icons/minus_icon.png"
+            alt="Circulo con un simbolo de resta"
+          />
         </button>
-        <h3>2/3 comprados</h3>
+        <p>2/3 comprados</p>
       </section>
-      <main>
-        <ul>
+      <main class="block--main-list">
+        <ul class="list--items-of-list">
           <li>
-            <button></button>
-            <p>Pan</p>
-            <p>0.75€</p>
-            <button>
-              <img src="/icons/Cross_icon.png" alt="Simbolo de cruzeta" />
-            </button>
+            <ul class="list--cubes">
+              <li><div></div></li>
+              <li><div></div></li>
+              <li><div></div></li>
+            </ul>
           </li>
           <li>
-            <button></button>
-            <p>Azúcar</p>
-            <p></p>
-            <button>
-              <img src="/icons/Cross_icon.png" alt="Simbolo de cruzeta" />
-            </button>
+            <ul class="list--food">
+              <li>Pan</li>
+              <li>Azúcar</li>
+              <li>Leche</li>
+            </ul>
           </li>
           <li>
-            <button></button>
-            <p>Leche</p>
-            <p>1.20€</p>
-            <button>
-              <img src="/icons/Cross_icon.png" alt="Simbolo de cruzeta" />
-            </button>
+            <ul class="list--prices">
+              <li>0.75€</li>
+              <li></li>
+              <li>1.20€</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="list--cross-buttons">
+              <il>
+                <button>
+                  <img src="icons/Cross_icon.png" alt="Simbolo de cruzeta" />
+                </button>
+              </il>
+              <il>
+                <button>
+                  <img src="icons/Cross_icon.png" alt="Simbolo de cruzeta" />
+                </button>
+              </il>
+              <il>
+                <button>
+                  <img src="icons/Cross_icon.png" alt="Simbolo de cruzeta" />
+                </button>
+              </il>
+            </ul>
           </li>
         </ul>
+        <p class="text--final-price">1.95€</p>
       </main>
     </div>
   </body>
